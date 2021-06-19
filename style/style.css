@@ -1,0 +1,56 @@
+@font-face {
+    font-family: MKMEGADRIVE-Medium;
+    src: url('/fonts/MKMEGADRIVE-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: MKMEGADRIVE-Medium;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(19, 28, 41);
+}
+
+#logo {
+    width: 160.07px;
+    height: 85px;
+}
+
+#sc_name {
+    width: 400px;
+    height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.navbar {
+
+    width: 1920px;
+    height: 170px;
+}
+
+.navbar-logo li {
+    width: 170px;
+    height: 50px;
+    float: left;
+    list-style: none;
+}
+
+.navbar-menu {
+    margin-left: 1650px;
+    padding-top: 25px;
+}
+
+.navbar-menu li {
+    font-size: 25px;
+    height: 50px;
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
