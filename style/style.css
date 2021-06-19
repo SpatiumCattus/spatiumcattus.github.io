@@ -1,9 +1,9 @@
-@font-face {
-    font-family: MKMEGADRIVE-Medium;
-    src: url('/fonts/MKMEGADRIVE-Medium.ttf') format('truetype');
+/* @font-face {
+    font-family: ConcertOne-Regular;
+    src: url('/fonts/ConcertOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 body {
     font-family: MKMEGADRIVE-Medium;
