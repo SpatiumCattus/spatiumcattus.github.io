@@ -1,0 +1,121 @@
+body{
+    background-color: #1f2127;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: #2d313f;
+    height: 70px;
+    width: 100%;
+}
+.top-bar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #2d313f;
+}
+
+#navbar {
+    height: 70px;
+    padding-top:25px;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#navbar li{
+    display: inline;
+ 
+}
+.logo{
+    padding: 23px;
+    float: left;
+}
+
+.menu-item{
+
+    width: 70px;
+    height: 50px;
+}
+.menu-item  a{
+    padding: 25px 30px 30px 30px;
+    font-weight:bold;
+    font-size: 18px;
+    color: #9399ae;
+    text-decoration: none;
+    
+}
+
+.menu-item :hover{
+    background-color: #777f9c;
+    font-weight:300;
+
+    color: #fff; 
+
+    
+}
+.buy-now,
+.buy-now a{
+    background-color: #3d4358;
+    font-weight:300;
+    width: 70px;
+    height: 50px;
+    color: #fff; 
+}
+main{
+    background-color: #1f2127;
+    height: 900px;
+    width: 100%;
+}
+.content-1{
+    position: absolute;
+    width: 100%;
+}
+.number-text {
+    margin-right: 60px;
+    color: #ffffff;
+
+}
+.number-string p,
+.number-text,
+.number-с{
+    font-family: 'Source Code Pro', monospace;
+}
+.number{
+    left: 25%;
+}
+
+.number p{
+    display: inline;
+    font-size: 54px;
+    height: 70px;
+    width: 100%;
+    color: rgb(184, 184, 184);
+}
+.number-string,
+.number-с{
+    padding-left: 20%;
+    margin: 0;
+}
+.number-string{
+
+    height:ы 90px;
+    width: 100%;
+    background-color: #2c3242;
+}
+.content-1{
+    margin-top: 250px;
+}
+.textspec {
+    animation-name: tspec;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; /* step-start тоже */
+}
+@keyframes tspec {
+    0%   { opacity: 0; }
+    10%  { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+}
