@@ -235,7 +235,7 @@ td, tr, th {
 
 .content-4 {
     background-color: #ffffff;
-    height: 500px;
+    height: 800px;
     width: 100%;
 }
 
@@ -292,6 +292,7 @@ td, tr, th {
     width: 400px;
     height: 300px;
 }
+
 .content-6 {
     color: #e9e8e5;
     background-color: #1f2127;
@@ -300,17 +301,20 @@ td, tr, th {
     padding-top: 150px;
     font-family: 'Source Code Pro', monospace;
 }
+
 .content{
     margin: auto;
     width: 900px;
     height: 500px;
 }
+
 .content-form{
-    width: 900px;
+    width: 1000px;
     height: 500px;
     background-color: #393e4d;
     font-family: 'Source Code Pro', monospace;
     font-size: 23px;
+    margin: auto;
 }
 
 .input-form,
@@ -319,11 +323,13 @@ td, tr, th {
     background-color: rgba(34,37,46,1);
     border-color: #363a45;
 }
+
 .hover-form:hover{
     background-color: #fff;
     color: #626262;
     box-shadow: inset 0 0 2px 2px rgb(0 0 0 / 2%);
 }
+
 .input-1,
 .input-4{
     margin-bottom: 10px;
@@ -337,7 +343,40 @@ td, tr, th {
     width: 260px;
     height: 30px;
 }
+
 .textarea{
     width: 540px;
     height: 200px;
+}
+
+.content-7{
+    margin: auto;
+    width: 900px;
+    height: 200px;
+    color: #e9e8e5;
+}
+
+.block{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.block span{
+    margin-top: 50px;
+}
+
+.sub-buttom{
+    color: #ffffff;
+    background-color: #e7618b;
+    height: 90px;
+    width: 400px;
+    margin: auto;
+    border: 0;
+}
+footer{
+    color: #ffffff;
+    margin: auto;
+    height: 200px;
+    width: 600px;
 }
