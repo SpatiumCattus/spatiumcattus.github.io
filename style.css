@@ -1,29 +1,98 @@
-.wrapper {
+body{
     margin: 0;
     padding: 0;
-    margin: auto;
+    width: 100%;
+    margin: auto; /* контет по центру */
+    background-color: black;
+    color: chartreuse;
+
+}
+a{
+    color: rgb(0, 102, 255);
+}
+.header{
+    width: 100%; /* размер блока по экрану */
+    height: 100%; /* размер блока по экрану */
+    background-image: url(back.jpg);  /* сам фон */
+    background-repeat: no-repeat; /* что бы фон не повторялся*/
+    background-size: 100% 100%; /* размер фона back.jpg по экрану*/
+    background-color: blue;
 }
 
-.header .back{
+.sidebar nav a{
+    /* стили для меню */
+    text-decoration: none;
+    text-transform: uppercase;
 
-    width: 1900px;
-    height: 720px;
-    background-image: url(back.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    margin:0 50px 0 0;
 }
 
-.h1 {
-    text-align: center;
-    font-size: 64px
+.sidebar{
+    padding-top: 5%;
 }
 
-.text1 {
-    font-size: 16px;
+.sidebar,
+.hello, 
+.conteiner{
+    /* выравнивание div по центру */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hello{
+    padding-top: 35%;
+}
+
+.hello nav h1{
+    text-transform: uppercase;
+}
+
+
+.conteiner .text{
+    width: 50%; 
+    height: 50%; 
     text-align: justify;
 }
 
-.content {
-    width: 650px;
-    margin: auto;
+/* wiki */
+.wiki{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.si8{
+    display:inline-block;
+    text-align: justify;
+    margin:0 50px 0 0;
+    background-color: rgb(14, 6, 6);
+    height: 150px;
+    width: 150px;
+}
+
+.si8 p,
+.si8 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.si8 img{
+    width: 100%; 
+    height: 100%; 
+}
+
+.footer{
+    width: 100%; 
+    height: 50px;
+    background-color: rgb(83, 83, 85);
+}
+
+.footer p,
+.footer a{
+    padding-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
 }
